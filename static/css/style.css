@@ -1,0 +1,24 @@
+/*******************************************************************************
+ * Normalize CSS
+ *
+ * The following styling of HTML elements is derived from Normalize.css that
+ * provides cross-browser consistency in the default styling. It's a modern,
+ * HTML5-ready, alternative to the traditional CSS reset.
+ *
+ * See http://yuilibrary.com/yui/docs/cssnormalize/ for details.
+ ******************************************************************************/
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body 'font-size' is set using
+ *    'em' units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+    font: 100% "Helvetica Neue", Helvetica, Arial, Sans-serif; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    margin: 0; /* Address margins handled incorrectly in IE 6/7. */
+}
